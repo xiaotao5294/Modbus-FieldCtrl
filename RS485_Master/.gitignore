@@ -1,0 +1,69 @@
+# PlatformIO / build artifacts
+.pio/
+.pioenvs/
+libdeps/
+.build/
+**/.pio/
+
+# VS Code
+.vscode/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# STM32CubeMX generated project files
+*.ioc
+*.ioc.backup
+*.mxproject
+
+# Build outputs and binaries
+*.elf
+*.bin
+*.hex
+*.map
+*.srec
+*.axf
+*.o
+*.a
+*.lib
+*.obj
+*.lst
+*.d
+
+# Linker / temp / logs
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Editor / OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vs/
+.idea/
+*.iml
+
+# Python / virtualenv
+venv/
+.env
+.pyenv/
+pip-wheel-metadata/
+
+# Coverage / test artifacts
+coverage/
+.coverage
+htmlcov/
+
+# Backup files
+*.bak
+
+# Optional: ignore PlatformIO build folders in subprojects
+RS485_Master/.pio/
+RS485_Slave1/.pio/
+RS485_Slave2/.pio/
