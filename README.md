@@ -16,7 +16,7 @@
 ## 项目概述
 
 本仓库包含三个独立工程：一个 RS485 主站和两个 RS485 从站。主站负责轮询、命令解析和诊断输出，从站负责各自的传感、控制与寄存器映射。
-
+实物图：![image1]（https://github.com/xiaotao5294/Modbus-FieldCtrl/blob/main/image1.jpg/）
 ## 系统结构
 
 ```mermaid
